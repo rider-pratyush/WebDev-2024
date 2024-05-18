@@ -1,0 +1,41 @@
+@font-face{
+    src: url(fonts/Poppins-Light.ttf);
+    font-family:Poppins-Light;
+}
+.box2{
+    height:62px;
+    width:100%;
+    background-color: rgb(222, 220, 220);
+   flex-wrap:wrap;
+}
+.fa-solid.fa-bolt{
+   margin: 18px;
+}
+.bnews{
+    display:inline-block;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    margin:0px;
+}
+.highlight{
+    display:inline-block;
+    margin: 0px;
+}
+.highlight a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left:25px;
+    border:none;
+}
+.weather{
+    display: inline-block;
+    border:none;
+    margin-left:800px;
+
+}
+.fa-solid.fa-cloud-moon-rain{
+    font-size: 2em;
+    padding:10px;
+} 
+

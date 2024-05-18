@@ -1,0 +1,91 @@
+.navbar ul{
+    list-style-type: none;
+    margin:0px;
+    margin-left: 15px;
+    padding:0px;
+    overflow: hidden;
+}
+.navbar a{
+    color:rgb(24, 22, 22);
+    text-decoration: none;
+    font-weight: normal;
+    padding:20px;
+    display:block;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar a:hover{
+    background-color: rgb(228, 91, 91);
+    color:whitesmoke;
+    font-size: 1.2em;
+    border:none;
+    border-radius: 15px;
+
+}
+.navbar li{
+    float:left;
+}
+
+
+.fa-solid.fa-caret-down.fa-beat-fade{
+    color:rgb(14, 60, 101);
+    padding-left: 10px;
+}
+
+ .dropdown{
+    display:inline-block;
+}
+.dropdown{
+    background-color: whitesmoke;
+    color: black;
+    padding: 0px;
+    border:none;
+    margin: 20px;
+    cursor:pointer;
+}
+.dropdown button{
+    border:none;
+    float:initial;
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+}
+.dropdown a{
+    display: block;
+    border: none;
+    border-radius: 10px;
+    color:whitesmoke;
+    text-decoration: none;
+    padding:10px 10px;
+}
+.dropdown .contents{
+    display: none;
+    position:absolute;
+    color:salmon;
+    background-color:whitesmoke;
+    min-width:75px;
+    box-shadow: 2px 2px 4px black; 
+    border:none;
+    border-radius: 10px;
+}
+.dropdown:hover .contents{
+    display: block;
+    background-color: salmon;
+    color: salmon;
+}
+.dropdown:hover button{
+    /* background-color:salmon; */
+    font-size: 1.2em;
+}
+/* .dropdown button::after{
+    content:"⬇️";
+} */
+.dropdown:hover button::after{
+    content:none;
+}
+.dropdown a:hover{
+    background-color: rgb(186, 46, 30);
+}
+.dropdown:hover .fa-solid.fa-caret-down.fa-beat-fade{
+    display: none;
+}

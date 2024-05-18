@@ -1,0 +1,17 @@
+#datebox1 {
+    width:max-content;
+    height: max-content;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color:#333;
+    border:none;
+    /* display: inline-block; */
+    /* margin-top: 10px;
+    margin-right:0px; */
+    padding:10px;
+    background-color: #a8a9a9;
+    border-radius: 0px;
+    
+    /* display: inline-block; /* Ensures the clock is displayed inline */
+} 

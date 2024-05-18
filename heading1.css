@@ -1,0 +1,41 @@
+/* @font-face {
+    font-family: Sedan;
+    src: url(fonts/Sedan.ttf);
+} */
+#one{
+    margin:0px 0px 0px;
+    background-color: whitesmoke;
+}
+.box1{
+    /* border:2px solid yellow; */
+    height:100px;
+    background-image: url(images/Free-Desktop-Black-1920x1080-Images.jpg);
+    
+}
+.heading{
+    
+    font-size: 50px;
+    font-weight:100;
+    /* background-image: url(images/Free-Desktop-Black-1920x1080-Images.jpg);
+    height: 100px; */
+    color:white;
+    /* font-style: Sedan; */
+    font-family:'Times New Roman', Times, serif;
+   font-stretch:ultra-condensed;
+    margin:0px;
+    padding-left:15px; 
+
+}
+#h11{
+    font-size: 80px;
+    padding-right:0px;
+    display: inline;
+}
+#h12{
+    font-size: 80px;
+    display: inline-block;
+}
+#h13{
+    font-size: 80px;
+    display: inline;
+}
